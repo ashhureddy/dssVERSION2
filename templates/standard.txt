@@ -372,8 +372,8 @@ cmedit create  SubNetwork=ONRM_ROOT_MO,MeContext=xxMMBB_Primary_Node_Namexx,Mana
 
 
 cmedit get SubNetwork=ONRM_ROOT_MO,MeContext=xxMMBB_Primary_Node_Namexx,ManagedElement=xxMMBB_Primary_Node_Namexx,ENodeBFunction=1,EUtranCellFDD=xxLTE_Site_IDxx_XA_1,GUtranFreqRelation=xx5G_ssbfrequencyAxx-15-20-0-2,GUtranCellRelation=310410-000000xx5G_NR_gNBIDxx-xx5G_celllocalidAxx
-cmedit get SubNetwork=ONRM_ROOT_MO,MeContext=xxMMBB_Primary_Node_Namexx,ManagedElement=xxMMBB_Primary_Node_Namexx,ENodeBFunction=1,EUtranCellFDD=xxLTE_Site_IDxx_XA_1,GUtranFreqRelation=xx5G_ssbfrequencyAxx-15-20-0-2,GUtranCellRelation=310410-000000xx5G_NR_gNBIDxx-xx5G_celllocalidBxx
-cmedit get SubNetwork=ONRM_ROOT_MO,MeContext=xxMMBB_Primary_Node_Namexx,ManagedElement=xxMMBB_Primary_Node_Namexx,ENodeBFunction=1,EUtranCellFDD=xxLTE_Site_IDxx_XA_1,GUtranFreqRelation=xx5G_ssbfrequencyAxx-15-20-0-2,GUtranCellRelation=310410-000000xx5G_NR_gNBIDxx-xx5G_celllocalidCxx
+cmedit get SubNetwork=ONRM_ROOT_MO,MeContext=xxMMBB_Primary_Node_Namexx,ManagedElement=xxMMBB_Primary_Node_Namexx,ENodeBFunction=1,EUtranCellFDD=xxLTE_Site_IDxx_XB_1,GUtranFreqRelation=xx5G_ssbfrequencyAxx-15-20-0-2,GUtranCellRelation=310410-000000xx5G_NR_gNBIDxx-xx5G_celllocalidBxx
+cmedit get SubNetwork=ONRM_ROOT_MO,MeContext=xxMMBB_Primary_Node_Namexx,ManagedElement=xxMMBB_Primary_Node_Namexx,ENodeBFunction=1,EUtranCellFDD=xxLTE_Site_IDxx_XC_1,GUtranFreqRelation=xx5G_ssbfrequencyAxx-15-20-0-2,GUtranCellRelation=310410-000000xx5G_NR_gNBIDxx-xx5G_celllocalidCxx
 
 
 cmedit delete SubNetwork=ONRM_ROOT_MO,MeContext=xxMMBB_Primary_Node_Namexx,ManagedElement=xxMMBB_Primary_Node_Namexx,ENodeBFunction=1,EUtranCellFDD=xxLTE_Site_IDxx_XA_1,GUtranFreqRelation=xx5G_ssbfrequencyAxx-15-20-0-2,GUtranCellRelation=310410-000000xx5G_NR_gNBIDxx-xx5G_celllocalidAxx
@@ -429,3 +429,4 @@ Note: Podt DSS Activation while Unlocking the DSS Cells, First the DSS NR Cells 
 ###################################
 ## End of DSS Activation Process ##
 ###################################
+
