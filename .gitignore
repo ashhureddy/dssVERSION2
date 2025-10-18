@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.xlsx
+temp_*.xlsx
+output_templates/
+*.json
+.vscode/
+.idea/
